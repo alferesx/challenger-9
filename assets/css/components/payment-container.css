@@ -1,0 +1,54 @@
+.payment-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.payment-section > .payment-container{
+  display: flex;
+  background-color: #fff;
+  width: 60%;
+  height: 60%;
+}
+
+.card-list{
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  width: 40%;
+
+}
+
+.card-list  .credit-card{
+  margin:1px auto;
+
+}
+
+.my-wallets{
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.my-wallets > .name{
+  font-family: 'Roboto',sans-serif;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.credit-card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  width: 250px;
+  height: 150px;
+  padding: 3%;
+}
+
+.card{
+  width: auto;
+  height: 40px;
+}
